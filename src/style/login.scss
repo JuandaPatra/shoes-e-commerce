@@ -1,0 +1,27 @@
+.login{
+    background: url(https://images.unsplash.com/photo-1552346053-c33aa8b3d665?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    .login-form{
+    height: 65vh;
+    width: 30vw;
+    margin-top: 15vh;
+    background: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    padding: 2%;
+    }
+
+    h1{
+        font-weight: 700;
+        text-align: center;
+    }
+
+    p{
+        font-weight: 600;
+        text-decoration: none;
+        text-align: center;
+    }
+}

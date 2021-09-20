@@ -1,0 +1,150 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Nike Air Brown",
+        "img": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80",
+        "price": 1987000,
+        "stock": 8,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+      },
+      {
+        "id": 2,
+        "name": "Nike Air Jordan",
+        "img": "https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "price": 2543000,
+        "stock": 9,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+      },
+      {
+        "id": 3,
+        "name": "Nike Revolt",
+        "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "price": 1765000,
+        "stock": 6,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+      },
+      {
+        "id": 4,
+        "name": "Nike Green",
+        "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
+        "price": 2143000,
+        "stock": 7,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+      }
+    ],
+    "users": [
+      {
+        "email": "asiap",
+        "password": "asiap",
+        "id": 1,
+        "cart": []
+      },
+      {
+        "email": "jodri",
+        "password": "jodri12",
+        "id": 2,
+        "cart": [
+          {
+            "id": 1,
+            "name": "Nike Air Brown",
+            "price": 1987000,
+            "qty": 2
+          }
+        ]
+      },
+      {
+        "email": "jonap",
+        "password": "jonap1!",
+        "id": 3
+      },
+      {
+        "email": "ucup",
+        "password": "ucup7!",
+        "id": 4
+      },
+      {
+        "email": "tom",
+        "password": "tom123!",
+        "id": 5
+      },
+      {
+        "email": "luka",
+        "password": "luka1!",
+        "cart": [],
+        "id": 6
+      },
+      {
+        "email": "Steve",
+        "password": "steve1!",
+        "cart": [],
+        "id": 7
+      },
+      {
+        "email": "jack",
+        "password": "jack123",
+        "cart": [],
+        "id": 8
+      }
+    ],
+    "transactions": [
+      {
+        "idUser": 2,
+        "time": "8/8/2021, 3:48:39 PM",
+        "product": [
+          {
+            "id": 1,
+            "name": "Nike Air Brown",
+            "price": 1987000,
+            "qty": 2
+          },
+          {
+            "id": 4,
+            "name": "Nike Green",
+            "price": 2143000,
+            "qty": 2
+          }
+        ],
+        "id": 1
+      },
+      {
+        "idUser": 6,
+        "time": "8/8/2021, 4:22:02 PM",
+        "product": [
+          {
+            "id": 1,
+            "name": "Nike Air Brown",
+            "price": 1987000,
+            "qty": 1
+          }
+        ],
+        "id": 2
+      },
+      {
+        "idUser": 7,
+        "time": "8/8/2021, 4:29:48 PM",
+        "product": [
+          {
+            "id": 1,
+            "name": "Nike Air Brown",
+            "price": 1987000,
+            "qty": 2
+          }
+        ],
+        "id": 3
+      },
+      {
+        "idUser": 8,
+        "time": "8/8/2021, 4:42:42 PM",
+        "product": [
+          {
+            "id": 3,
+            "name": "Nike Revolt",
+            "price": 1765000,
+            "qty": 1
+          }
+        ],
+        "id": 4
+      }
+    ]
+  }

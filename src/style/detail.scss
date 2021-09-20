@@ -1,0 +1,41 @@
+.detail{
+    // background-color: darkblue;
+    // display: flex;
+    margin-top: 30vh;
+
+    h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20vh;
+
+        .container-image{
+            margin-right: 3rem;
+            flex: 0.5;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+        
+    }
+    .images{
+        width: 30rem;
+        transition: ease-in;
+        overflow: hidden;
+    }
+
+    .images:hover{
+        transform: scale(1.1);
+        overflow: hidden;
+
+    }
+    .container-desc{
+        // background-color: darkblue;
+        // color: white;
+        flex: 0.5;
+    }
+}
